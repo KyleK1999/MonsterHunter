@@ -35,8 +35,10 @@ if __name__ == "__main__":
             attack=monster_data["attack"],
             defense=monster_data["defense"],
             health=monster_data["health"],
-            default_health=monster_data["monster_default_health"],   
-        )
+            monster_default_health=monster_data["monster_default_health"],   
+)
+
+
         session.add(new_monster)
 
 
